@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="5.0.0" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v5.0.0(https://github.com/logisim-evolution/).
+
+  <lib desc="#Wiring" name="0">
+    <tool name="Pin">
+      <a name="appearance" val="classic"/>
+    </tool>
+    <tool name="Transistor">
+      <a name="facing" val="north"/>
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#FPArithmetic" name="4"/>
+  <lib desc="#Memory" name="5"/>
+  <lib desc="#I/O" name="6"/>
+  <lib desc="#TTL" name="7"/>
+  <lib desc="#TCL" name="8"/>
+  <lib desc="#Base" name="9"/>
+  <lib desc="#BFH-Praktika" name="10"/>
+  <lib desc="#Input/Output-Extra" name="11"/>
+  <lib desc="#Soc" name="12"/>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool map="Button2" name="Poke Tool"/>
+    <tool map="Button3" name="Menu Tool"/>
+    <tool map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool name="Poke Tool"/>
+    <tool name="Edit Tool"/>
+    <tool name="Wiring Tool"/>
+    <tool name="Text Tool"/>
+    <tool name="Image"/>
+    <sep/>
+    <tool name="Pin"/>
+    <tool name="Pin">
+      <a name="facing" val="south"/>
+      <a name="type" val="output"/>
+    </tool>
+    <sep/>
+    <tool name="NOT Gate"/>
+    <tool name="AND Gate"/>
+    <tool name="OR Gate"/>
+    <tool name="XOR Gate"/>
+    <tool name="NAND Gate"/>
+    <tool name="NOR Gate"/>
+    <sep/>
+    <tool name="D Flip-Flop"/>
+    <tool name="Register"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="main"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(110,1340)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(110,1440)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(1120,1390)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="0" loc="(140,2200)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(150,1820)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A"/>
+    </comp>
+    <comp lib="0" loc="(240,2100)" name="Power"/>
+    <comp lib="0" loc="(240,2180)" name="Transistor">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(240,2270)" name="Transistor">
+      <a name="facing" val="north"/>
+      <a name="type" val="n"/>
+    </comp>
+    <comp lib="0" loc="(240,2350)" name="Ground"/>
+    <comp lib="0" loc="(280,1550)" name="Power"/>
+    <comp lib="0" loc="(280,1610)" name="Transistor">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(280,1640)" name="Transistor">
+      <a name="facing" val="north"/>
+      <a name="type" val="n"/>
+    </comp>
+    <comp lib="0" loc="(280,1710)" name="Ground"/>
+    <comp lib="0" loc="(400,2200)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(410,1760)" name="Transistor"/>
+    <comp lib="0" loc="(410,1880)" name="Transistor">
+      <a name="type" val="n"/>
+    </comp>
+    <comp lib="0" loc="(450,1430)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="0" loc="(460,2190)" name="Transistor">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(460,2270)" name="Transistor">
+      <a name="facing" val="north"/>
+      <a name="type" val="n"/>
+    </comp>
+    <comp lib="0" loc="(460,320)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="0" loc="(460,910)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="0" loc="(490,680)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="0" loc="(550,2190)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="0" loc="(600,1750)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="type" val="output"/>
+    </comp>
+    <comp lib="0" loc="(650,2170)" name="Transistor">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(650,2290)" name="Transistor">
+      <a name="facing" val="west"/>
+      <a name="type" val="n"/>
+    </comp>
+    <comp lib="0" loc="(70,230)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(70,330)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(720,1320)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(720,1440)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(750,1780)" name="Transistor">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(750,1850)" name="Transistor">
+      <a name="facing" val="north"/>
+      <a name="type" val="n"/>
+    </comp>
+    <comp lib="0" loc="(80,540)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(80,680)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(80,810)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(840,1820)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="B"/>
+    </comp>
+    <comp lib="0" loc="(90,890)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="1" loc="(1050,1390)" name="OR Gate"/>
+    <comp lib="1" loc="(160,360)" name="NOT Gate"/>
+    <comp lib="1" loc="(160,540)" name="NOT Gate"/>
+    <comp lib="1" loc="(170,230)" name="NOT Gate"/>
+    <comp lib="1" loc="(170,680)" name="NOT Gate"/>
+    <comp lib="1" loc="(220,1360)" name="NOR Gate"/>
+    <comp lib="1" loc="(220,1470)" name="NAND Gate"/>
+    <comp lib="1" loc="(230,860)" name="OR Gate"/>
+    <comp lib="1" loc="(240,960)" name="NAND Gate"/>
+    <comp lib="1" loc="(270,1470)" name="NOT Gate"/>
+    <comp lib="1" loc="(310,350)" name="AND Gate"/>
+    <comp lib="1" loc="(310,610)" name="NOR Gate"/>
+    <comp lib="1" loc="(310,710)" name="NOR Gate"/>
+    <comp lib="1" loc="(320,250)" name="AND Gate"/>
+    <comp lib="1" loc="(340,910)" name="AND Gate"/>
+    <comp lib="1" loc="(380,1400)" name="NOR Gate"/>
+    <comp lib="1" loc="(400,310)" name="OR Gate"/>
+    <comp lib="1" loc="(420,670)" name="OR Gate"/>
+    <comp lib="1" loc="(880,1330)" name="NAND Gate"/>
+    <comp lib="1" loc="(880,1440)" name="NOR Gate"/>
+    <comp lib="1" loc="(950,1330)" name="NOT Gate"/>
+    <comp lib="9" loc="(100,100)" name="Image">
+      <a name="height" val="158"/>
+      <a name="image" val="data:image/png;base64,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"/>
+      <a name="license" val="Unspecified"/>
+      <a name="width" val="398"/>
+    </comp>
+    <comp lib="9" loc="(353,1313)" name="Text">
+      <a name="text" val="异或（4）：14"/>
+    </comp>
+    <comp lib="9" loc="(363,850)" name="Text">
+      <a name="text" val="异或（3）：16"/>
+    </comp>
+    <comp lib="9" loc="(390,206)" name="Text">
+      <a name="text" val="异或（1）：22"/>
+    </comp>
+    <comp lib="9" loc="(392,563)" name="Text">
+      <a name="text" val="异或（2）：18"/>
+    </comp>
+    <comp lib="9" loc="(475,1633)" name="Text">
+      <a name="text" val="晶体管层次同或门"/>
+    </comp>
+    <comp lib="9" loc="(975,1274)" name="Text">
+      <a name="text" val="同或门"/>
+    </comp>
+    <wire from="(100,330)" to="(100,400)"/>
+    <wire from="(100,330)" to="(130,330)"/>
+    <wire from="(100,400)" to="(230,400)"/>
+    <wire from="(1000,1330)" to="(1000,1370)"/>
+    <wire from="(1000,1410)" to="(1000,1440)"/>
+    <wire from="(1050,1390)" to="(1120,1390)"/>
+    <wire from="(110,1340)" to="(140,1340)"/>
+    <wire from="(110,1380)" to="(110,1440)"/>
+    <wire from="(110,1380)" to="(120,1380)"/>
+    <wire from="(110,630)" to="(110,680)"/>
+    <wire from="(110,630)" to="(250,630)"/>
+    <wire from="(110,680)" to="(140,680)"/>
+    <wire from="(120,1380)" to="(120,1490)"/>
+    <wire from="(120,1380)" to="(160,1380)"/>
+    <wire from="(120,1490)" to="(160,1490)"/>
+    <wire from="(120,810)" to="(120,930)"/>
+    <wire from="(120,810)" to="(180,810)"/>
+    <wire from="(120,930)" to="(180,930)"/>
+    <wire from="(130,330)" to="(130,360)"/>
+    <wire from="(140,1340)" to="(140,1450)"/>
+    <wire from="(140,1340)" to="(160,1340)"/>
+    <wire from="(140,1450)" to="(160,1450)"/>
+    <wire from="(140,2200)" to="(180,2200)"/>
+    <wire from="(140,890)" to="(140,990)"/>
+    <wire from="(140,890)" to="(180,890)"/>
+    <wire from="(140,990)" to="(180,990)"/>
+    <wire from="(150,1820)" to="(170,1820)"/>
+    <wire from="(160,360)" to="(210,360)"/>
+    <wire from="(160,540)" to="(250,540)"/>
+    <wire from="(170,1730)" to="(170,1820)"/>
+    <wire from="(170,1730)" to="(350,1730)"/>
+    <wire from="(170,1820)" to="(170,1860)"/>
+    <wire from="(170,1860)" to="(170,1990)"/>
+    <wire from="(170,1860)" to="(390,1860)"/>
+    <wire from="(170,1990)" to="(750,1990)"/>
+    <wire from="(170,230)" to="(170,330)"/>
+    <wire from="(170,330)" to="(260,330)"/>
+    <wire from="(170,680)" to="(250,680)"/>
+    <wire from="(180,2200)" to="(180,2440)"/>
+    <wire from="(180,2200)" to="(260,2200)"/>
+    <wire from="(180,2440)" to="(460,2440)"/>
+    <wire from="(180,810)" to="(180,840)"/>
+    <wire from="(180,880)" to="(180,890)"/>
+    <wire from="(180,930)" to="(180,940)"/>
+    <wire from="(180,980)" to="(180,990)"/>
+    <wire from="(210,270)" to="(210,360)"/>
+    <wire from="(210,270)" to="(270,270)"/>
+    <wire from="(220,1360)" to="(320,1360)"/>
+    <wire from="(220,1470)" to="(240,1470)"/>
+    <wire from="(220,200)" to="(220,230)"/>
+    <wire from="(220,230)" to="(270,230)"/>
+    <wire from="(230,370)" to="(230,400)"/>
+    <wire from="(230,370)" to="(260,370)"/>
+    <wire from="(230,860)" to="(240,860)"/>
+    <wire from="(230,960)" to="(240,960)"/>
+    <wire from="(240,2100)" to="(240,2140)"/>
+    <wire from="(240,2180)" to="(240,2220)"/>
+    <wire from="(240,2220)" to="(240,2270)"/>
+    <wire from="(240,2220)" to="(330,2220)"/>
+    <wire from="(240,2310)" to="(240,2350)"/>
+    <wire from="(240,720)" to="(240,730)"/>
+    <wire from="(240,730)" to="(250,730)"/>
+    <wire from="(240,860)" to="(240,890)"/>
+    <wire from="(240,890)" to="(290,890)"/>
+    <wire from="(240,960)" to="(300,960)"/>
+    <wire from="(250,540)" to="(250,590)"/>
+    <wire from="(250,680)" to="(250,690)"/>
+    <wire from="(260,2160)" to="(260,2200)"/>
+    <wire from="(260,2200)" to="(260,2290)"/>
+    <wire from="(270,1420)" to="(270,1470)"/>
+    <wire from="(270,1420)" to="(320,1420)"/>
+    <wire from="(280,1550)" to="(280,1570)"/>
+    <wire from="(280,1610)" to="(280,1630)"/>
+    <wire from="(280,1630)" to="(280,1640)"/>
+    <wire from="(280,1630)" to="(390,1630)"/>
+    <wire from="(280,1680)" to="(280,1710)"/>
+    <wire from="(290,890)" to="(300,890)"/>
+    <wire from="(290,930)" to="(290,940)"/>
+    <wire from="(290,930)" to="(300,930)"/>
+    <wire from="(300,1590)" to="(320,1590)"/>
+    <wire from="(300,1660)" to="(320,1660)"/>
+    <wire from="(300,930)" to="(300,960)"/>
+    <wire from="(310,350)" to="(350,350)"/>
+    <wire from="(310,610)" to="(310,650)"/>
+    <wire from="(310,650)" to="(370,650)"/>
+    <wire from="(310,690)" to="(310,710)"/>
+    <wire from="(310,690)" to="(370,690)"/>
+    <wire from="(320,1360)" to="(320,1380)"/>
+    <wire from="(320,1590)" to="(320,1650)"/>
+    <wire from="(320,1650)" to="(320,1660)"/>
+    <wire from="(320,1650)" to="(350,1650)"/>
+    <wire from="(320,250)" to="(350,250)"/>
+    <wire from="(330,2110)" to="(330,2220)"/>
+    <wire from="(330,2110)" to="(460,2110)"/>
+    <wire from="(340,1760)" to="(340,1790)"/>
+    <wire from="(340,1760)" to="(370,1760)"/>
+    <wire from="(340,1790)" to="(340,1880)"/>
+    <wire from="(340,1790)" to="(810,1790)"/>
+    <wire from="(340,1880)" to="(370,1880)"/>
+    <wire from="(340,910)" to="(460,910)"/>
+    <wire from="(350,1650)" to="(350,1730)"/>
+    <wire from="(350,250)" to="(350,290)"/>
+    <wire from="(350,330)" to="(350,350)"/>
+    <wire from="(380,1400)" to="(440,1400)"/>
+    <wire from="(390,1630)" to="(390,1690)"/>
+    <wire from="(390,1690)" to="(390,1740)"/>
+    <wire from="(390,1690)" to="(750,1690)"/>
+    <wire from="(400,2200)" to="(420,2200)"/>
+    <wire from="(400,310)" to="(460,310)"/>
+    <wire from="(410,1760)" to="(450,1760)"/>
+    <wire from="(410,1880)" to="(450,1880)"/>
+    <wire from="(420,2200)" to="(420,2360)"/>
+    <wire from="(420,2200)" to="(480,2200)"/>
+    <wire from="(420,2360)" to="(800,2360)"/>
+    <wire from="(420,670)" to="(490,670)"/>
+    <wire from="(440,1400)" to="(440,1430)"/>
+    <wire from="(440,1430)" to="(450,1430)"/>
+    <wire from="(450,1760)" to="(450,1830)"/>
+    <wire from="(450,1830)" to="(450,1880)"/>
+    <wire from="(450,1830)" to="(600,1830)"/>
+    <wire from="(460,2110)" to="(460,2150)"/>
+    <wire from="(460,2110)" to="(670,2110)"/>
+    <wire from="(460,2190)" to="(460,2240)"/>
+    <wire from="(460,2240)" to="(460,2270)"/>
+    <wire from="(460,2240)" to="(550,2240)"/>
+    <wire from="(460,2310)" to="(460,2440)"/>
+    <wire from="(460,2440)" to="(670,2440)"/>
+    <wire from="(460,310)" to="(460,320)"/>
+    <wire from="(480,2170)" to="(480,2200)"/>
+    <wire from="(480,2200)" to="(480,2290)"/>
+    <wire from="(490,670)" to="(490,680)"/>
+    <wire from="(550,2190)" to="(550,2240)"/>
+    <wire from="(550,2240)" to="(610,2240)"/>
+    <wire from="(600,1750)" to="(600,1830)"/>
+    <wire from="(600,1830)" to="(750,1830)"/>
+    <wire from="(610,2170)" to="(610,2240)"/>
+    <wire from="(610,2170)" to="(650,2170)"/>
+    <wire from="(610,2240)" to="(610,2290)"/>
+    <wire from="(610,2290)" to="(650,2290)"/>
+    <wire from="(670,2110)" to="(670,2150)"/>
+    <wire from="(670,2270)" to="(670,2440)"/>
+    <wire from="(690,2170)" to="(730,2170)"/>
+    <wire from="(690,2290)" to="(730,2290)"/>
+    <wire from="(70,230)" to="(90,230)"/>
+    <wire from="(70,330)" to="(100,330)"/>
+    <wire from="(720,1320)" to="(790,1320)"/>
+    <wire from="(720,1440)" to="(760,1440)"/>
+    <wire from="(730,2170)" to="(730,2220)"/>
+    <wire from="(730,2220)" to="(730,2290)"/>
+    <wire from="(730,2220)" to="(800,2220)"/>
+    <wire from="(750,1690)" to="(750,1740)"/>
+    <wire from="(750,1780)" to="(750,1830)"/>
+    <wire from="(750,1830)" to="(750,1850)"/>
+    <wire from="(750,1890)" to="(750,1990)"/>
+    <wire from="(760,1350)" to="(760,1440)"/>
+    <wire from="(760,1350)" to="(820,1350)"/>
+    <wire from="(760,1440)" to="(820,1440)"/>
+    <wire from="(770,1760)" to="(770,1820)"/>
+    <wire from="(770,1820)" to="(770,1870)"/>
+    <wire from="(770,1820)" to="(810,1820)"/>
+    <wire from="(790,1320)" to="(790,1420)"/>
+    <wire from="(790,1320)" to="(820,1320)"/>
+    <wire from="(790,1420)" to="(820,1420)"/>
+    <wire from="(80,540)" to="(90,540)"/>
+    <wire from="(80,680)" to="(110,680)"/>
+    <wire from="(80,810)" to="(120,810)"/>
+    <wire from="(800,2220)" to="(800,2360)"/>
+    <wire from="(810,1790)" to="(810,1820)"/>
+    <wire from="(810,1820)" to="(840,1820)"/>
+    <wire from="(820,1310)" to="(820,1320)"/>
+    <wire from="(820,1440)" to="(820,1460)"/>
+    <wire from="(880,1330)" to="(920,1330)"/>
+    <wire from="(880,1440)" to="(1000,1440)"/>
+    <wire from="(90,200)" to="(220,200)"/>
+    <wire from="(90,200)" to="(90,230)"/>
+    <wire from="(90,230)" to="(140,230)"/>
+    <wire from="(90,540)" to="(130,540)"/>
+    <wire from="(90,540)" to="(90,720)"/>
+    <wire from="(90,720)" to="(240,720)"/>
+    <wire from="(90,890)" to="(140,890)"/>
+    <wire from="(950,1330)" to="(1000,1330)"/>
+  </circuit>
+</project>
